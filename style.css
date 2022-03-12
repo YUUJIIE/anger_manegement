@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+JP');
+
+@media all and (max-width: 1000px) {
+    section {
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
+body {
+    margin: 0;
+    font-family: 'Noto Sans JP', sans-serif;
+    background: #eee;
+}
+
+ul {
+    list-style: none;
+}
+
+header {
+    background: rgb(255, 121, 10);
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    height: 70px;
+    font-family:"Yu Gothic", "游ゴシック", YuGothic, "游ゴシック体";
+    
+}
+
+header h1 {
+    font-size: 40px;
+   
+    border-bottom: 1px solid;
+}
+
+section{
+    width: 1200px;
+    margin: 10px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+article {
+    border: 1px solid #ccc;
+    width: 550px;
+    padding: 0;
+    background: #fff;
+}
+
+article h3 {
+    background: rgb(255, 202, 122);
+    height: 60px;
+    padding-top: 30px;
+    padding-left: 5px;
+}
+
+.result {
+    width: 1100px;
+    margin: 10px auto;
+    background: #fff;
+    text-align: center;
+    border: 1px solid #ccc;
+}
+
+.result button {
+    background: rgb(255, 121, 10);
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    width: 200px;
+    padding: 5px 20px 5px 20px;
+    border: 1px solid rgb(255, 90, 48);
+    border-radius: 10px;
+    box-shadow: 0px 7px rgb(255, 63, 63);
+}
+
+.result button:active {
+    position: relative;
+    top: 7px;
+    box-shadow: none;
+}
+
+.result span {
+    font-size: 30px;
+}
+
+.type-view {
+    display: flex;
+}
+
+.type-select {
+    width: 200px;
+}
+
+.type-select a {
+    text-decoration: none;
+    color: #666;
+    background: #eee;
+}
+
+.type-select a:hover {
+    text-decoration: underline;
+    color: #eee;
+    background: #666;
+}
+
+.result h2 {
+    background: rgb(255, 202, 122);
+    height: 60px;
+    padding-top: 20px;
+}
+
+.explain {
+    text-align: left;
+    white-space: pre-line;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 40px;
+}
+
+.feature {
+    font-weight: bold;
+    border-bottom: 1px solid #666;
+}
